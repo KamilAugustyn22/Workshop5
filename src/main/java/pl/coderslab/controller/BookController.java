@@ -2,7 +2,7 @@ package pl.coderslab.controller;
 
 
 import org.springframework.web.bind.annotation.*;
-import pl.coderslab.app.BookService;
+import pl.coderslab.service.BookService;
 import pl.coderslab.model.Book;
 
 import java.util.List;

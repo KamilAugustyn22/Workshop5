@@ -1,4 +1,4 @@
-package pl.coderslab.app;
+package pl.coderslab.service;
 
 import org.springframework.stereotype.Component;
 import pl.coderslab.model.Book;
