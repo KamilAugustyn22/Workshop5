@@ -1,4 +1,4 @@
-package pl.coderslab.app;
+package pl.coderslab.service;
 
 import org.springframework.stereotype.Component;
 import pl.coderslab.model.Book;
@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class MockBookService implements BookService{
+public class MockBookService implements BookService {
     private List<Book> books;
     public MockBookService(){
         books = new ArrayList<>();
